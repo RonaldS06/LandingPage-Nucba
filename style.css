@@ -36,9 +36,10 @@ header nav .menu,
 
 header nav .menu_contacto {
     background-color: var(--black);
-    /* border-radius: 0.25rem; */
+    padding: 8px 10px;
     transition: all .3s ease-in-out;
 }
+
 
 header nav .menu_contacto:hover {
     background-color: var(--orange);
@@ -77,8 +78,8 @@ header nav .menu>ul>li>a:hover {
     font-weight: 600;
 }
 
-li:nth-child(-n+3) > a::after{
-    content: "";
+.menu_principal ul li a::after{
+    content: " ";
     display: inline-block;
     height: 2px;
     position: absolute;
@@ -89,6 +90,6 @@ li:nth-child(-n+3) > a::after{
     background: var(--orange);
     transition: .400s ease-out;
 }
-li > a:hover::after{
+.menu_principal ul > li > a:hover::after{
     width: 100%;
 }
