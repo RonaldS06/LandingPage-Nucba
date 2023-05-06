@@ -17,6 +17,8 @@
   text-decoration: none;
   list-style-type: none;
   font-family: "Outfit", sans-serif;
+
+  scroll-behavior: smooth;
 }
 
 body {
