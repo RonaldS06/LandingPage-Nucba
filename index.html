@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
 
   <body>
@@ -38,6 +42,22 @@
           </ul>
         </div>
       </nav>
+
+      <!-- #menu-h es icono ancla y target -->
+      <div class="logo_mobile">
+        <img src="imagenes/logo.png" alt="Logo para Mobile">
+      </div>
+      <a class="icono-h" href="#menu-h">
+        <img src="imagenes/menu.svg" alt="" />
+      </a>
+      <nav id="menu-h">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#actividades">Actividades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main id="inicio">
@@ -46,8 +66,8 @@
           <div class="hero_texto">
             <h1>Una app para nuevas tendencias</h1>
             <p>
-              Descargalo y no pierdas las últimas tendencias de moda que tanto te
-              gustan
+              Descargalo y no pierdas las últimas tendencias de moda que tanto
+              te gustan.
             </p>
 
             <div class="boton_descarga">
@@ -62,14 +82,14 @@
               /></a>
             </div>
           </div>
-          <img src="imagenes/hero_IMG.png" alt="imagen hero" />
+          <figure><img src="imagenes/hero_IMG.png" alt="imagen hero" /></figure>
         </div>
       </section>
 
       <div class="border"></div>
 
       <section id="about">
-        <img src="imagenes/about_img.png" alt="sobre nosotros" />
+        <img src="imagenes/Registro.png" alt="sobre nosotros" />
 
         <div class="about_texto">
           <h2 class="title_about">SOBRE NOSOTROS</h2>
@@ -106,6 +126,165 @@
           </div>
         </div>
       </section>
+
+      <section id="cards">
+        <div class="cards_container">
+          <h2>Con bubbles, es más fácil</h2>
+          <p>
+            ¡Descubre la revolución en el mundo de la moda con nuestra increíble
+            aplicación!
+          </p>
+          <div class="card_flex">
+            <div class="card">
+              <img src="imagenes/home.png" alt="Imagen App de Inicio" />
+              <div class="info_card">
+                <h3>Vende tus prendas</h3>
+                <p>
+                  Vender tus propias prendas en nuestra aplicación es fácil y
+                  emocionante. Simplemente toma una foto de tus artículos,
+                  agrega una descripción encantadora y establece el precio.
+                  Nuestra comunidad de compradores aprecia la autenticidad
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="imagenes/about.png" alt="Imagen App de Tendencias" />
+              <div class="info_card">
+                <h3>Inspiración</h3>
+                <p>
+                  Además de comprar y vender, encontrarás un espacio dedicado a
+                  la inspiración. Descubre las últimas tendencias de moda.
+                  Queremos que te sientas conectado/a con la moda de una manera
+                  única y personalizada.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="imagenes/favoritos.png" alt="Imagen App de Favoritos" />
+              <div class="info_card">
+                <h3>Comunidad</h3>
+                <p>
+                  Descubre la alegría de encontrar tesoros únicos, hacer nuevos
+                  amigos en la comunidad y contribuir a un mundo más consciente.
+                  ¡Descarga nuestra aplicación ahora y comienza a explorar el
+                  emocionante mundo de la moda de segunda mano!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <div class="contacto___container">
+          <div class="contacto__info">
+            <h2>Contacto</h2>
+            <div class="info_columna">
+              <div class="infoDireccion">
+                <h4>Belgrano, CABA</h4>
+                <div class="icon_texto">
+                  <img
+                    src="imagenes/Map.svg"
+                    alt="Icono de ubicación"
+                    class="icon"
+                  />
+                  <p>Calle falsa 123</p>
+                </div>
+                <div class="icon_texto">
+                  <img
+                    src="imagenes/mail.svg"
+                    alt="Icono de mail"
+                    class="icon"
+                  />
+                  <p>mail@mail.com</p>
+                </div>
+                <div class="icon_texto">
+                  <img
+                    src="imagenes/Call.svg"
+                    alt="Icono de telefono"
+                    class="icon"
+                  />
+                  <p>011 12121212</p>
+                </div>
+              </div>
+              <div class="infoPersona">
+                <h4>Ronald Santamaria</h4>
+                <div class="icon_texto">
+                  <img
+                    src="imagenes/Map.svg"
+                    alt="Icono de ubicación"
+                    class="icon"
+                  />
+                  <p>Calle falsa 123</p>
+                </div>
+                <div class="icon_texto">
+                  <img
+                    src="imagenes/mail.svg"
+                    alt="Icono de mail"
+                    class="icon"
+                  />
+                  <p>mail@mail.com</p>
+                </div>
+                <div class="icon_texto">
+                  <img
+                    src="imagenes/Call.svg"
+                    alt="Icono de telefono"
+                    class="icon"
+                  />
+                  <p>011 12121212</p>
+                </div>
+              </div>
+            </div>
+            <div class="redes_sociales">
+              <div class="behance">
+                <a
+                  href="https://www.linkedin.com/in/ronald-santamar%C3%ADa-pizarro-9b538221a/"
+                  target="_blank"
+                  ><img
+                    src="imagenes/behance.svg"
+                    alt="Icono de Behance"
+                    class="icon_redes"
+                /></a>
+              </div>
+              <div class="linkedin">
+                <a
+                  href="https://www.linkedin.com/in/ronald-santamar%C3%ADa-pizarro-9b538221a/"
+                  target="_blank"
+                  ><img
+                    src="imagenes/linkedin.svg"
+                    alt="Icono de Linkedin"
+                    class="icon_redes"
+                /></a>
+              </div>
+              <div class="instagram">
+                <a href="https://www.instagram.com" target="_blank"
+                  ><img
+                    src="imagenes/instagram.svg"
+                    alt="Icono de Linkedin"
+                    class="icon_redes"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="mapa_contenedor">
+            <iframe
+              class="mapa"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.7890180100194!2d-58.44943619459639!3d-34.55889693788654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5cd67ddae53%3A0x2066eb8912db8786!2sParque%20Barrancas%20de%20Belgrano!5e0!3m2!1ses-419!2sar!4v1684096429906!5m2!1ses-419!2sar"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <img src="imagenes/logo.png" alt="Logo de la Aplicación" />
+      <p>© Bubbles, 2023. Todos los derechos reservados.</p>
+    </footer>
   </body>
 </html>
